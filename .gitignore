@@ -1,0 +1,5 @@
+# Files to exclude from Git
+
+# The working directory for FIT file comparison
+fit_files_archive/
+fit_files_compare_HR/
