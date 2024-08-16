@@ -28,7 +28,7 @@ I couldn’t trust Strava.app or WorkOutdoors.app (even though it’s awesome). 
 pip install matplotlib fitparse
 ```
 2) Place the [fit_files_compare_HR.py](fit_files_compare_HR.py) in a folder of your choosing
-3) create a `fit_files_compare` folder next to it (to drop the FIT files into)
+3) create a `fit_files_compare_HR` folder next to it (to drop the FIT files into)
 
 ## Usage
 
@@ -38,6 +38,7 @@ pip install matplotlib fitparse
 
 ```bash
 cd /path/to/where_you_placed_the_python_file_directory
+mkdir fit_files_compare_HR
 python fit_files_compare_HR.py
 ```
 Of course, you can simply type `python` in a terminal and drag and drop the [fit_files_compare_HR.py](fit_files_compare_HR.py) from your files’ manager (such the MacOS Finder.app or Windows Explorer).
